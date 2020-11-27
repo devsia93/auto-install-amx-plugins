@@ -23,7 +23,7 @@ namespace AutomationInstallPluginSharp
                 string pathToDirectory = args[0];
                 string pathToFile = args[1];
 
-                RootDirectory = new DirectoryInfo(PathToDirectory);
+                RootDirectory = new DirectoryInfo(pathToDirectory);
                 StartInitFirstListPlugins(pathToFile);
 
                 while (true)
